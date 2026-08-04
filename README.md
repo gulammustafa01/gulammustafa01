@@ -85,20 +85,6 @@ Full-stack flight booking platform with real-time tracking & payments.
 </td>
 <td width="50%" valign="top">
 
-#### ⛓️ [chain-veres — Blockchain Social Platform](https://github.com/gulammustafa01/chain-veres)
-A blockchain-powered social media platform exploring decentralized identity and content verification.
-
-`Blockchain` `JavaScript` `Web3`
-
-- 🔗 Decentralized data verification concepts
-- 🌐 Social platform architecture on-chain
-- ⭐ Community-starred project
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 #### 🌐 [Portfolio](https://github.com/gulammustafa01/Portfolio)
 My personal developer portfolio — showcasing projects, skills, and experience.
 
