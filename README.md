@@ -74,6 +74,7 @@ const gulam = {
 | **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,express,postman" alt="backend" /> |
 | **Databases & Cache** | <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis" alt="databases" /> |
 | **DevOps & Tools** | <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,netlify,vscode" alt="tools" /> |
+| **Real-Time** | <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io" /> |
 | **AI Workflow** | <img src="https://img.shields.io/badge/Claude%20Code%20CLI-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" /> <img src="https://img.shields.io/badge/AI%20Code%20Review-6E56CF?style=flat-square&logo=githubcopilot&logoColor=white" alt="AI review" /> |
 
 </div>
@@ -97,6 +98,9 @@ const gulam = {
 
 <a href="https://github.com/gulammustafa01/SkyArc">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=gulammustafa01&repo=SkyArc&theme=radical&hide_border=true" alt="SkyArc" />
+</a>
+<a href="https://github.com/gulammustafa01/CollabTask">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gulammustafa01&repo=CollabTask&theme=radical&hide_border=true" alt="CollabTask" />
 </a>
 <a href="https://github.com/gulammustafa01/Portfolio">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=gulammustafa01&repo=Portfolio&theme=radical&hide_border=true" alt="Portfolio" />
@@ -152,6 +156,39 @@ flowchart LR
 | Lines of code | **8,800+** |
 | Auth methods | JWT, Google OAuth |
 | Deployment | Docker + GitHub Actions |
+
+</details>
+
+### 📋 [CollabTask: Real-Time Collaborative Task Board](https://github.com/gulammustafa01/CollabTask)
+
+Kanban-style task board where teams create boards, assign tasks, and see every change live, with no page refresh.
+
+`React` `Node.js` `Express` `MongoDB` `Socket.io` `JWT` `Docker`
+
+| 🔐 Security | ⚡ Real-Time | 📋 Features | 🔄 DevOps |
+|:--|:--|:--|:--|
+| JWT authentication | Live sync with Socket.io | Boards, lists & cards | Docker |
+| Role-based access | Instant task updates across users | Drag-and-drop task movement | GitHub Actions CI/CD |
+| Input validation | Presence & activity updates | Assignees, due dates & comments | |
+
+<details>
+<summary><b>🏗️ View real-time architecture</b></summary>
+
+<br/>
+
+```mermaid
+sequenceDiagram
+    participant A as User A (React)
+    participant S as Express + Socket.io
+    participant DB as MongoDB
+    participant B as User B (React)
+    A->>S: Drag task to "In Progress"
+    S->>DB: Persist new position
+    DB-->>S: Saved
+    S-->>A: Acknowledge
+    S-->>B: Broadcast task:moved
+    Note over B: Board updates instantly
+```
 
 </details>
 
