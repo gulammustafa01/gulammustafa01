@@ -12,7 +12,7 @@
 <a href="mailto:gulamemustafa200@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 <a href="https://github.com/gulammustafa01/Portfolio"><img src="https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" /></a>
 <img src="https://img.shields.io/badge/Bengaluru%2C%20India-informational?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-<img src="https://komarev.com/ghpvc/?username=gulammustafa01&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/gulammustafa01?style=for-the-badge&logo=github&color=7c3aed&labelColor=1f2937" alt="GitHub followers" />
 
 <br/><br/>
 
